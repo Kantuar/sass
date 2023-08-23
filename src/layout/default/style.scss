@@ -1,0 +1,13 @@
+@use '../../lib/service.scss' as s;
+
+.page {
+    font-family: 'Roboto', sans-serif;
+    font-size: s.size();
+    background-color: s.color('background');
+}
+
+.page__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
